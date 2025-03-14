@@ -140,6 +140,8 @@ With precise people detection, the robot can plan its movements more effectively
 Conclusion
 The integration of the `isaac_ros_unet` image segmentation package with the PeopleSemSegNet model significantly enhances the capabilities of autonomous mobile robots (AMRs) in dynamic environments. By leveraging high-accuracy semantic segmentation, real-time processing, and seamless ROS integration, robots can effectively detect and avoid people, ensuring safe and efficient navigation. The flexibility and customization options of the `isaac_ros_unet` package make it a valuable tool for adapting to various operational needs and environments. Overall, this technology advances the safety and operational efficiency of AMRs, paving the way for smarter and more reliable robotics solutions in settings such as warehouses and other complex environments.
 
+For more information read this medium blog 
+https://medium.com/@kabilankb2003/people-avoidance-and-following-in-isaac-sim-using-isaac-ros-u-net-segmentation-a4960ad39309
 ## Latest
 
 Update 2024-12-10: Update to be compatible with JetPack 6.1
