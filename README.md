@@ -77,6 +77,8 @@ Please visit the [Isaac ROS Documentation](https://nvidia-isaac-ros.github.io/re
   * [API](https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_image_segmentation/isaac_ros_unet/index.html#api)
  
   People Avoidance and Following in Isaac Sim Using Isaac ROS U-NET Segmentation
+
+  ![Image](https://github.com/user-attachments/assets/15727b17-d6e0-4dfa-90a7-0382de91c6b6)
 Overview
 Isaac ROS Image Segmentation includes ROS packages designed for semantic image segmentation. These packages enable pixel-level classification of input images by performing GPU-accelerated inference with deep neural network models. Each pixel in the input image is classified into predefined categories, allowing perception systems to determine the spatial distribution of each class within a 2D image. This output can also be integrated with depth information to create a 3D scene understanding.
 DNN Model Overview of PeopleSemSegNet for Autonomous Mobile Robots (AMRs)
@@ -127,7 +129,7 @@ isaac_ros_dnn_image_encoder: This package encodes the input images to make them 
 figure 3figure 4In Figure 4 , the Isaac Sim simulation demonstrates the integration of Isaac ROS Unet image segmentation for people avoidance. When the topic /unet/colored_segmentation_mask is activated, it provides segmentation information with people highlighted in red. Using this segmentation data, the robot can detect the presence of individuals within the warehouse environment and adjust its path to avoid collisions, ensuring safe and efficient navigation around humans.
 Advantages of Using the isaac_ros_unet Image Segmentation Package with the PeopleSemSegNet AMR Model.
 Accurate People Detection:
-
+![Image](https://github.com/user-attachments/assets/c19367cb-8b56-4877-bea6-e0158b749add)
 The isaac_ros_unet package uses the U-Net model, which is highly accurate for identifying people in images. This ensures the robot can reliably detect individuals.
 2. Real-Time Processing:
 The package allows the robot to process and segment images in real time. This is crucial for quickly reacting to changes in a busy environment like a warehouse.
