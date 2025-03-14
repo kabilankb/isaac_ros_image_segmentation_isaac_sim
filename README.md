@@ -125,6 +125,7 @@ figure 2In Figure 2 & 3, the RQT graph illustrates the interaction between key I
 isaac_ros_image_pipeline: This package is responsible for processing and segmenting image data from the robot's sensors. It prepares the image feed for further analysis and segmentation.
 isaac_ros_unet: The U-Net-based segmentation model is used to perform semantic segmentation on the processed images. This model identifies and classifies objects, such as people, within the images based on the segmentation mask provided.
 isaac_ros_dnn_image_encoder: This package encodes the input images to make them compatible with deep neural network models. It ensures that the images are formatted correctly for accurate and efficient processing by the isaac_ros_unet model.
+![Image](https://github.com/user-attachments/assets/7818ae7b-12b5-439e-b69f-8641866b5042)
 
 figure 3figure 4In Figure 4 , the Isaac Sim simulation demonstrates the integration of Isaac ROS Unet image segmentation for people avoidance. When the topic /unet/colored_segmentation_mask is activated, it provides segmentation information with people highlighted in red. Using this segmentation data, the robot can detect the presence of individuals within the warehouse environment and adjust its path to avoid collisions, ensuring safe and efficient navigation around humans.
 Advantages of Using the isaac_ros_unet Image Segmentation Package with the PeopleSemSegNet AMR Model.
